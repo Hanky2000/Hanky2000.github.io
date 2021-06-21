@@ -4,6 +4,7 @@
 		<title>My profile in NCU</title>
 	</head>
 	<body>	
+		<?php echo '<p>Hello</p>';?>
 		<div style=background-color:pink><!--背景色-->
 			<h1 style= text-align:center>Information about Hank in NCU</h1> <!-- 置中-->
 		</div>	
@@ -15,8 +16,13 @@
 			<h2>Reference Links</h2>
 			<ol>
 				<li style =font-size:20px><a href="https://im.mgt.ncu.edu.tw/" target="_blank">My department</a></li><!-- 字體20-->
-				<li style =font-size:20px><a href="https://github.com/Hanky2000" target="_blank">My page</a></li><!-- 字體20-->
+				<li style =font-size:20px><a href="https://im.mgt.ncu.edu.tw/" target="_blank">My page</a></li><!-- 字體20-->
 			</ol>
-		
+			<script>
+				onload=showmsg();
+				function showmsg(){
+					alert('welcome to my website');
+				}
+			</script>
 	</body>
 </html>
